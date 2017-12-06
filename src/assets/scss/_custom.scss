@@ -1,0 +1,24 @@
+@font-face { font-family: Akzidenz_black; src: url(../fonts/AkzidenzGroteskBlack.ttf);}
+
+$black: Akzidenz_black, sans-serif;
+
+h1 {
+  font-family: $black;
+}
+
+// temp components
+.by-line {
+  margin-top: rem-calc(60);
+  margin-bottom: rem-calc(60);
+  border-left: rem-calc(4) solid #7d8b92;
+  p {
+    text-transform: uppercase;
+    font-family: $black;
+    margin: 0;
+    color: #7d8b92;
+    padding-left: rem-calc(10);
+  }
+}
+
+@import './components/header';
+@import './components/hero-section';

@@ -1,0 +1,37 @@
+.hero-wrapper {
+  position: relative;
+  // z-index: 1;
+  height: 100vh;
+  max-height: rem-calc(1350);
+  min-height: rem-calc(550);
+  background: url('../img/ghassan-test.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.explore-btn {
+  position: absolute;
+  bottom: rem-calc(150);
+  left: rem-calc(-40);
+  width: rem-calc(160);
+  height: rem-calc(30);
+  transform: rotate(-90deg);
+  span {
+    display: inline-block;
+  }
+  a {
+    font-family: $black;
+    text-transform: uppercase;
+    font-size: rem-calc(12);
+    color: #b8c5ca;
+    margin: 0;
+  }
+  .explore-arrow {
+    transform: translateY(6px);
+    width: rem-calc(80);
+    overflow: hidden;
+      #explore-arrow {
+        transform: translateX(60%);
+
+    }
+  }
+}
