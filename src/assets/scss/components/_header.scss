@@ -1,5 +1,8 @@
 header {
   nav {
+    position: absolute;
+    background: $white;
+    z-index: 100;
     width: 100%;
     height: rem-calc(70);
     padding: rem-calc(30);

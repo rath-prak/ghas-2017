@@ -1,9 +1,20 @@
-@font-face { font-family: Akzidenz_black; src: url(../fonts/AkzidenzGroteskBlack.ttf);}
+@font-face { font-family: Akzidenz_regular; src: url(../fonts/BertholdAkzidenzGroteskBERegular.otf);}
+@font-face { font-family: Akzidenz_medium; src: url(../fonts/BertholdAkzidenzGroteskBEMedium.otf);}
+@font-face { font-family: Akzidenz_bold; src: url(../fonts/BertholdAkzidenzGroteskBEBold.otf);}
+@font-face { font-family: Akzidenz_black; src: url(../fonts/BertholdAkzidenzGroteskBESuper.otf);}
 
+$regular: Akzidenz_regular, sans-serif;
+$medium: Akzidenz_black, sans-serif;
+$bold: Akzidenz_black, sans-serif;
 $black: Akzidenz_black, sans-serif;
 
-h1 {
+h1, h2, h3, h4 {
   font-family: $black;
+  color: $color-text-primary;
+}
+
+p {
+  color: $color-text-primary;
 }
 
 // temp components
@@ -22,3 +33,4 @@ h1 {
 
 @import './components/header';
 @import './components/hero-section';
+@import './components/about-section';

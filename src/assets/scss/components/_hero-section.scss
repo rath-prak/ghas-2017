@@ -4,11 +4,13 @@
   height: 100vh;
   max-height: rem-calc(1350);
   min-height: rem-calc(550);
-  background: url('../img/ghassan-test.jpg') no-repeat center center;
-  background-size: cover;
+  // background: url('../img/ghassan-test.jpg') no-repeat center center;
+  // background-size: cover;
+  background: #41839b;
 }
 
 .explore-btn {
+  z-index: 100;
   position: absolute;
   bottom: rem-calc(150);
   left: rem-calc(-40);
