@@ -1,0 +1,28 @@
+.features-wrapper {
+   .feature-box {
+    display: flex;
+    justify-content: center;
+    height: rem-calc(250);
+    align-items: center;
+    h3 {
+      text-transform: uppercase;
+      font-family: $regular;
+      font-size: 28px; 
+    }
+   }
+   .skin {
+    background: url('../img/hair_test.jpg') no-repeat center center;
+    background-position: 50% 50%;
+    background-size: cover;    
+   }
+
+   .hair {
+    background: rgb(245, 244, 185);
+    }
+    .man {
+        background: rgb(180, 224, 231);
+    }
+    .vibe {
+        background: rgb(168, 195, 202);
+    }
+}
